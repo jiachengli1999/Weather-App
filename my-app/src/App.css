@@ -1,0 +1,84 @@
+.input-section{
+  background-color: white;
+  padding: 100px;
+  text-align: center;
+}
+
+label{
+  /* Make label moveable and resizeable:  */
+  display: block; 
+}
+
+.lat, .lon, .btn{
+  /* padding-left: 10px; */
+  float: left;
+  /* padding: 0px 20px; */
+  width: 33%;
+  font-size: 30px;
+}
+
+.lat-label, .lat-input, .lon-label, .lon-input{
+  padding: 0px 10px;
+  float: left;
+  /* display: block; */
+  /* border: 5px solid black; */
+}
+
+.lat-input, .lon-input{
+  border: transparent;
+  background-color: transparent;
+  outline: transparent;
+  border-bottom: 1px solid black;
+  font-size: 30px;
+  width: 150px;
+}
+
+.btn{
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 25px;
+  width: 20%;
+}
+
+.btn:hover{
+  background-color: rgb(211, 207, 207);
+}
+
+.curr-city{
+  background-color: #333;
+  padding: 100px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  overflow: hidden;
+}
+
+.weather-info{
+  background-color: white;
+  /* border: 5px solid black; */
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.section1, .section2{
+  float: left;
+  position: relative;
+  width: 50%;
+  height: 300px;
+  /* border: 2px solid black; */
+}
+
+.section1 ul{
+  list-style-type: none;
+}
+
+.section1{
+  font-size: 25px; 
+  padding-left: 50px;
+}
+
+.section2{
+  width:45%;
+  font-size: 100px;
+}

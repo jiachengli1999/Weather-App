@@ -1,4 +1,4 @@
-# Music-Player
+# Weather App
 Retreive your current weather status by entering in your lattitide and longitude. <br>
 May also work for coordinates outside of the US! <br>
 Weather Information from OpenWeather.com using their One Call API <br>
